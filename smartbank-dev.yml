@@ -1,6 +1,6 @@
 - name: Smart Bank Dev Flow
   hosts: all
-  enviroment:
+  environment:
     http_proxy: z928258:H7a2kcz1@prxmxnvprbmx.mx.corp:8015
     https_proxy: z928258:H7a2kcz1@prxmxnvprbmx.mx.corp:8015
   tasks:
