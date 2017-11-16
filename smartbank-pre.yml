@@ -1,1 +1,9 @@
-
+- name: Smart Bank Pre Flow
+  hosts: all
+  enviroment:
+    http_proxy: z928258:H7a2kcz1@prxmxnvprbmx.mx.corp:8015
+    https_proxy: z928258:H7a2kcz1@prxmxnvprbmx.mx.corp:8015
+  tasks:
+    - name: Smart Bank Pre Flow
+      debug:
+        msg: "Pre Flow OK"
